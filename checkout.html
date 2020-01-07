@@ -1,39 +1,25 @@
 <!DOCTYPE html>
-<html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title  -->
     <title>Nile</title>
-
-    <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
-
-    <!-- Core Style CSS -->
     <link rel="stylesheet" href="css/core-style.css">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
-
     <!-- ##### Main Content ##### -->
     <div class="main-content-wrapper d-flex clearfix">
-
         <table>
         <td>
         <!-- Header Area Start -->
         <header class="header-area clearfix">
-            
             <!-- Logo -->
             <div class="logo">
-                <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                <a href="index.html"><img src="./img/core-img/logo.png" alt=""></a>
             </div>
             <!-- nile Nav -->
             <nav class="nile-nav">
@@ -46,24 +32,27 @@
             </nav>
             <!-- Button Group -->
             <div class="nile-btn-group mt-30 mb-100">
-                <a href="index.html" class="btn nile-btn mb-15">Bon Plans</a>
-                <a href="index.html" class="btn nile-btn active">Nouveautes</a>
+                <a href="shop.html#" class="btn nile-btn mb-15">Bon Plans</a>
+                <a href="shop.html#" class="btn nile-btn active">Nouveautes</a>
             </div>
-            <!-- Cart Menu -->
+            <!-- Menu Pannier -->
             <div class="cart-fav-search mb-100">
                 <a href="cart.html" class="cart-nav"><img src="img/core-img/cart.png" alt=""> Pannier <span>(0)</span></a>
                 <a href="index.html" class="fav-nav"><img src="img/core-img/favorites.png" alt=""> Favoris</a>
                 <a href="index.html" class="search-nav"><img src="img/core-img/search.png" alt=""> Recherche</a>
             </div>
             <!-- Social Button -->
-            <div class="social-info d-flex justify-content-between">
-                <a href="index.html"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                <a href="index.html"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="index.html"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="index.html"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <div>
+                <a href="shop.html#"><i class="fa fa-pinterest" style="font-size:50px" aria-hidden="true"></i></a>
+                <a href="shop.html#"><i class="fa fa-instagram" style="font-size:50px" aria-hidden="true"></i></a>
+                <a href="shop.html#"><i class="fa fa-facebook" style="font-size:50px" aria-hidden="true"></i></a>
+                <a href="shop.html#"><i class="fa fa-twitter" style="font-size:50px" aria-hidden="true"></i></a>
             </div>
         </header>
-        <!-- Header Area End --></td>
+        </td>
+        
+        
+        <!-- Header Area End -->
         <td>
         <div >
             <div class="container-fluid">
@@ -85,14 +74,14 @@
                                         <input type="text" class="form-control" id="company" placeholder="Entreprise" value="">
                                     </div>
                                     <div class="col-12 mb-3">
-                                        <input type="email" class="form-control" id="email" placeholder="Courriel" value="">
+                                        <input type="email" class="form-control" id="email" placeholder="E-Mail" value="">
                                     </div>
                                     <div class="col-12 mb-3">
                                         <select class="w-100" id="country">
-                                        <option value="usa">United States</option>
+                                        <option value="usa">France</option>
                                         <option value="uk">United Kingdom</option>
                                         <option value="ger">Germany</option>
-                                        <option value="fra">France</option>
+                                        <option value="fra">USA</option>
                                         <option value="ind">India</option>
                                         <option value="aus">Australia</option>
                                         <option value="bra">Brazil</option>
@@ -100,7 +89,7 @@
                                     </select>
                                     </div>
                                     <div class="col-12 mb-3">
-                                        <input type="text" class="form-control mb-3" id="street_address" placeholder="Address" value="">
+                                        <input type="text" class="form-control mb-3" id="street_address" placeholder="Adresse" value="">
                                     </div>
                                     <div class="col-12 mb-3">
                                         <input type="text" class="form-control" id="city" placeholder="Ville" value="">
@@ -135,13 +124,12 @@
                         <div class="cart-summary">
                             <h5>Total Pannier</h5>
                             <ul class="summary-table">
-                                <li><span>subtotal:</span> <span>€140.00</span></li>
-                                <li><span>delivery:</span> <span>Free</span></li>
+                                <li><span>soustotal:</span> <span>€140.00</span></li>
+                                <li><span>livraison:</span> <span>Gratuit</span></li>
                                 <li><span>total:</span> <span>€140.00</span></li>
                             </ul>
 
                             <div class="payment-method">
-                                <!-- Cash on delivery -->
                                 <div class="custom-control custom-checkbox mr-sm-2">
                                     <input type="checkbox" class="custom-control-input" id="cod" checked>
                                     <label class="custom-control-label" for="cod">Paiement au livraison</label>
@@ -164,7 +152,7 @@
         </td>
         </table>
     </div>
-    <!-- ##### Main Content Wrapper End ##### -->
+    <!-- ##### Main Content End ##### -->
 
     <section class="newsletter-area section-padding-100-0">
         <div class="container">
